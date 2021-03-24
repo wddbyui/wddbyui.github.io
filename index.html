@@ -5,9 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/css/styles.css" rel="stylesheet">
-    <title>Document</title>
+    <title>WDD Society | Home</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <header id="top"> <!-- Reference for "Back to Top" link on mobile version footer -->
+        <div id="logo-box">
+            <a href="#"><img src="https://via.placeholder.com/175x100.png?text=LOGO" alt="BYU-I WDD Society Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Internships</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div id="join-button"><a href="#"><button type="button">Join</button></a></div> <!-- Separated this element since it breaks out of nav bar on smaller screen sizes -->
+    </header>
+    <main>
+        <div id="home-top-section">
+            <img src="https://via.placeholder.com/350x200.png?text=COMPUTER+SCREEN+WITH+TEXT" alt="Image of computer screen">
+            <h1>Welcome to the BYU-I Web Design and Development Society!</h1>
+            <h4>We have a lot of exciting things happening! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sit doloremque quaerat. Blanditiis expedita, incidunt ullam id eos nam eveniet explicabo? Esse soluta quia voluptatem nesciunt accusamus quam eveniet provident.</h4>
+        </div>
+        <div id="home-card-section">
+            <div class="home-card">
+                <h2><a href="#">WDD Society Calendar</a></h2>
+                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+            </div>
+            <div class="home-card">
+                <h2><a href="#">Great Articles</a></h2>
+                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+            </div>
+            <div class="home-card">
+                <h2><a href="#">Internships</a></h2>
+                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+            </div>
+            <div class="home-card">
+                <h2><a href="#">FAQs</a></h2>
+                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+            </div>
+            <div class="home-card">
+                <h2><a href="#">About Us</a></h2>
+                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-desktop"> <!-- Desktop footer --> 
+            <a href="#"><img src="https://via.placeholder.com/125x75.png?text=LOGO" alt="BYU-I WDD Society Logo"></a>
+            <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Internships</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Articles</a></li>
+            </ul>
+        </div>
+        <div id="footer-tablet"> <!-- Tablet footer -->
+            <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Internships</a></li>
+            </ul>
+            <a href="#"><img src="https://via.placeholder.com/125x75.png?text=LOGO" alt="BYU-I WDD Society Logo"></a>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Articles</a></li>
+            </ul>
+        </div>
+        <div id="footer-mobile"> <!-- Mobile footer -->
+            <a href="#top"><button type="button">Back to Top</button></a>
+            <a href="#"><img src="https://via.placeholder.com/100x50.png?text=LOGO" alt="BYU-I WDD Society Logo"></a>
+        </div>
+        <span id="copy">&copy; 2021 BYU-I Web Design & Development Society</span>
+    </footer>
 </body>
 </html>
