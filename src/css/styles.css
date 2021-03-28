@@ -2,3 +2,6 @@
     margin: 0;
     padding: 0;
 }
+nav, footer {
+    background-color: #53a2be;
+}
