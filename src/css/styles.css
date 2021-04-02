@@ -60,3 +60,13 @@ main {
 #home-card-project {
     grid-column: 3/4;
 }
+#home-top-section-image {
+    width: 350px; 
+}
+#logo {
+    width: 150px;
+}
+nav ul {
+    list-style: none;
+    float: right;
+}
