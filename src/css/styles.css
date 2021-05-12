@@ -3,7 +3,7 @@
     padding: 0;
 }
 nav, footer {
-    background-color: #53a2be;
+    background-color: #7AB6CD;
 }
 main {
     max-width: 1000px;
@@ -37,7 +37,9 @@ main {
     display: grid;
     grid-template-columns: (1fr, 1fr, 1fr, 1fr, 1fr);
     grid-template-rows: (1fr, 1fr, 1fr, 1fr, 1fr); 
-    grid-gap: 2em;
+    grid-gap: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #home-card-calendar {
     grid-column: 1/2;
@@ -65,8 +67,92 @@ main {
 }
 #logo {
     width: 150px;
+    position: absolute;
+    top: 0%;
+    left: 13%;
 }
-nav ul {
-    list-style: none;
-    float: right;
+.nav-links {
+    padding: 30px;
+    color: #0A2239;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-links:hover {
+    text-decoration: underline;
+    color: #15497A;
+}
+.nav-links:visited {
+    color: #0A2239;
+}
+.nav-right {
+    text-align: right;
+    padding-right: 110px;
+    padding-top: 15px;
+}
+#join-button {
+    position: absolute;
+    top: 0;
+    left: 93%;
+    padding-top: 14px;
+}
+#join {
+    color: white;
+    background-color: #0A2239;
+    border: solid 1px white;
+    box-shadow: 4px 4px 8px #999999;
+    width: 80px;
+    height: 33px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+#join:hover {
+    text-decoration: underline;
+}
+nav {
+    height: 55px;
+}
+main {
+    padding-top: 60px;
+}
+.home-images {
+    width: 280px;
+    padding: 15px;
+}
+.home-card {
+    border: #cccccc solid 1px;
+}
+.home-card:hover {
+    box-shadow: 5px 10px 8px #999999;
+}
+.home-card-titles {
+    text-align: center;
+}
+footer {
+    height: 90px;
+}
+#footer-logo {
+    float: left;
+    width: 150px;
+}
+#footer-links {
+    text-align: center;
+    padding-top: 1em;
+}
+.footer-content {
+    list-style-type: none;
+    display: inline;
+    padding: 2em;
+    color: #0A2239;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+}
+.footer-content:visited {
+    color: #0A2239;
+}
+#copy {
+    text-align: center;
+    padding-top: 1em;
 }

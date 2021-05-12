@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/css/styles.css" rel="stylesheet">
     <title>WDD Society | Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="top"> <!-- Reference for "Back to Top" link on mobile version footer -->
         <nav>
-            <div id="logo-box">
-                <a href="#"><img id="logo" src="logo.png" alt="BYU-I WDD Society Logo"></a>
+            <div class="nav-right">
+                <a class="nav-links" href="#">News</a>
+                <a class="nav-links" href="#">Events</a>
+                <a class="nav-links" href="#">Internships</a>
+                <a class="nav-links" href="#">About</a>
             </div>
-            <ul>
-                <li><a class="nav-links" href="#">Events</a></li>
-                <li><a class="nav-links" href="#">News</a></li>
-                <li><a class="nav-links" href="#">Internships</a></li>
-                <li><a class="nav-links" href="#">About</a></li>
-            </ul>
         </nav>
-        <div id="join-button"><a href="#"><button type="button">Join</button></a></div> <!-- Separated this element since it breaks out of nav bar on smaller screen sizes -->
+        <div id="logo-box">
+            <a href="#"><img id="logo" src="logo.png" alt="BYU-I WDD Society Logo"></a>
+        </div>
+        <div id="join-button"><a href="#"><button id="join" type="button">Join</button></a></div> <!-- Separated this element since it breaks out of nav bar on smaller screen sizes -->
     </header>
     <main>
         <div id="home-top-section">
@@ -28,66 +30,49 @@
             <h1 class="home-top-section-text">Welcome to the BYU-I Web Design and Development Society!<br>
                 <span id="home-top-section-p">We have a lot of exciting things happening! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nulla sit doloremque quaerat. Blanditiis expedita, incidunt ullam id eos nam eveniet explicabo?
-                    Esse soluta quia voluptatem nesciunt accusamus quam eveniet provident.</span></p>
+                    Esse soluta quia voluptatem nesciunt accusamus quam eveniet provident.</span>
             </h1>
         </div>
         <div id="home-card-section">
             <div id="home-card-calendar" class="home-card">
-                <h2><a href="#">WDD Society Calendar</a></h2>
-                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+                <h2 class="home-card-titles"><a href="#">WDD Society Calendar</a></h2>
+                <a href="#"><img class="home-images" src="https://cdn.pixabay.com/photo/2017/07/31/18/41/calendar-2559888_960_720.jpg" alt="Image of computer screen"></a>
             </div>
             <div id="home-card-articles" class="home-card">
-                <h2><a href="#">Great Articles</a></h2>
-                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+                <h2 class="home-card-titles"><a href="#">Great Articles</a></h2>
+                <a href="#"><img class="home-images" src="https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image of computer screen"></a>
             </div>
             <div id="home-card-intern" class="home-card">
-                <h2><a href="#">Internships</a></h2>
-                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+                <h2 class="home-card-titles"><a href="#">Internships</a></h2>
+                <a href="#"><img class="home-images" src="https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image of computer screen"></a>
             </div>
             <div id="home-card-faqs" class="home-card">
-                <h2><a href="#">FAQs</a></h2>
-                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+                <h2 class="home-card-titles"><a href="#">FAQs</a></h2>
+                <a href="#"><img class="home-images" src="https://images.pexels.com/photos/221164/pexels-photo-221164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image of computer screen"></a>
             </div>
             <div id="home-card-about" class="home-card">
-                <h2><a href="#">About Us</a></h2>
-                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+                <h2 class="home-card-titles"><a href="#">About Us</a></h2>
+                <a href="#"><img class="home-images" src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image of computer screen"></a>
             </div>
             <div id="home-card-project" class="home-card">
-                <h2><a href="#">Our Projects</a></h2>
-                <a href="#"><img src="https://via.placeholder.com/300x150.png?text=CARD+IMAGE" alt="Image of computer screen"></a>
+                <h2 class="home-card-titles"><a href="#">Our Projects</a></h2>
+                <a href="#"><img class="home-images" src="https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image of computer screen"></a>
             </div>
         </div>
     </main>
     <footer>
         <div id="footer-desktop"> <!-- Desktop footer --> 
-            <a href="#"><img src="https://via.placeholder.com/125x75.png?text=LOGO" alt="BYU-I WDD Society Logo"></a>
-            <ul>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Internships</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Articles</a></li>
+            <a href="#"><img id="footer-logo" src="logo.png" alt="BYU-I WDD Society Logo"></a>
+            <ul id="footer-links">
+                <li class="footer-content"><a href="#">Events</a></li>
+                <li class="footer-content"><a href="#">News</a></li>
+                <li class="footer-content"><a href="#">Internships</a></li>
+                <li class="footer-content"><a href="#">About</a></li>
+                <li class="footer-content"><a href="#">FAQs</a></li>
+                <li class="footer-content"><a href="#">Articles</a></li>
             </ul>
         </div>
-        <div id="footer-tablet"> <!-- Tablet footer -->
-            <ul>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Internships</a></li>
-            </ul>
-            <a href="#"><img src="https://via.placeholder.com/125x75.png?text=LOGO" alt="BYU-I WDD Society Logo"></a>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Articles</a></li>
-            </ul>
-        </div>
-        <div id="footer-mobile"> <!-- Mobile footer -->
-            <a href="#top"><button type="button">Back to Top</button></a>
-            <a href="#"><img src="https://via.placeholder.com/100x50.png?text=LOGO" alt="BYU-I WDD Society Logo"></a>
-        </div>
-        <span id="copy">&copy; 2021 BYU-I Web Design & Development Society</span>
+        <div id="copy">&copy; 2021 BYU-I Web Design & Development Society</div>
     </footer>
 </body>
 </html>
