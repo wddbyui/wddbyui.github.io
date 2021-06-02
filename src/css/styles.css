@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -155,4 +157,28 @@ footer {
 #copy {
     text-align: center;
     padding-top: 1em;
+}
+.home-card {
+    font-family: 'Oswald', sans-serif;
+    color: #15497A;
+}
+.home-card:visited {
+    font-family: 'Oswald', sans-serif;
+    color: #15497A;
+}
+.home-card:active {
+    font-family: 'Oswald', sans-serif;
+    color: #15497A;
+}
+.home-card:hover {
+    font-family: 'Oswald', sans-serif;
+    color: #0A2239;
+}
+#copy {
+    color: #15497A;
+    font-family: 'Oswald', sans-serif;
+}
+#home-top-section {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #0A2239;
 }
