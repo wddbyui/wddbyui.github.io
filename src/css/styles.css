@@ -182,3 +182,6 @@ footer {
     font-family: 'Nanum Gothic', sans-serif;
     color: #0A2239;
 }
+.events-container {
+    border: 1px solid black;
+}
