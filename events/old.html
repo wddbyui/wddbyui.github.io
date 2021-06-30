@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the BYU-I Web Design and Development Society! Check out our events here!">
+    <link href="../src/css/styles.css" rel="stylesheet">
+    <link href="../src/css/calendar.css" rel="stylesheet" >
+    <title>WDD Society | Events</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="icon" href="../src/images/logo.png" type="image/gif" sizes="16x16">
+    <script src="../src/js/calendar.js" defer></script>
+</head>
+<body>
+    <header id="top">
+        <nav>
+            <div class="nav-right">
+                <a class="nav-links" href="#">News</a>
+                <a class="nav-links" href="#">Events</a>
+                <a class="nav-links" href="#">Internships</a>
+                <a class="nav-links" href="#">About</a>
+            </div>
+        </nav>
+        <div id="logo-box">
+            <a href="../"><img id="logo" src="../src/images/logo.png" alt="BYU-I WDD Society Logo"></a>
+        </div>
+        <div id="join-button"><a href="#"><button id="join" type="button">Join</button></a></div>
+    </header>
+    <main>
+        <h1>Events</h1>
+        <div class="events-container">
+            <div class="calendar">
+                <div class="month">
+                  <i class="fas fa-angle-left prev"></i>
+                  <div class="date">
+                    <h2></h2>
+                  </div>
+                  <i class="fas fa-angle-right next"></i>
+                </div>
+                <div class="weekdays">
+                  <div>Sun</div>
+                  <div>Mon</div>
+                  <div>Tue</div>
+                  <div>Wed</div>
+                  <div>Thu</div>
+                  <div>Fri</div>
+                  <div>Sat</div>
+                </div>
+                <div class="days"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-desktop">
+            <a href="../"><img id="footer-logo" src="../src/images/logo.png" alt="BYU-I WDD Society Logo"></a>
+            <ul id="footer-links">
+                <li class="footer-content"><a href="#">Events</a></li>
+                <li class="footer-content"><a href="#">News</a></li>
+                <li class="footer-content"><a href="#">Internships</a></li>
+                <li class="footer-content"><a href="#">About</a></li>
+                <li class="footer-content"><a href="#">FAQs</a></li>
+                <li class="footer-content"><a href="#">Articles</a></li>
+            </ul>
+        </div>
+        <div id="copy">&copy; 2021 BYU-I Web Design & Development Society</div>
+    </footer>
+</body>
+</html>
