@@ -12,19 +12,19 @@
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
-    <header id="top"> <!-- Reference for "Back to Top" link on mobile version footer -->
+    <header id="top">
+        <a href="/" id="logo"><img src="/src/images/logo.png" alt="BYU-I WDD Society Logo"></a>
+        <input type="checkbox" name="menuCheckbox" id="menuCheckbox">
         <nav>
-            <div class="nav-right">
-                <a class="nav-links" href="#">News</a>
-                <a class="nav-links" href="#">Events</a>
-                <a class="nav-links" href="#">Internships</a>
-                <a class="nav-links" href="/about/">About</a>
-            </div>
+            <ul>
+                <li><label for="menuCheckbox"><a class="nav-links" id="menuLabel">Menu</a><a class="nav-links" id="closeMenu">Close</a></label></li>
+                <li><a class="nav-links" href="#">News</a></li>
+                <li><a class="nav-links" href="/events/">Events</a></li>
+                <li><a class="nav-links" href="#">Internships</a></li>
+                <li><a class="nav-links" href="/about/">About</a></li>
+                <li><a class="nav-links" href="#" id="join">Join</a></li>
+            </ul>
         </nav>
-        <div id="logo-box">
-            <a href="/"><img id="logo" src="/logo.png" alt="BYU-I WDD Society Logo"></a>
-        </div>
-        <div id="join-button"><a href="#"><button id="join" type="button">Join</button></a></div> <!-- Separated this element since it breaks out of nav bar on smaller screen sizes -->
     </header>
     <main>
         <section class="officers">
@@ -53,17 +53,17 @@
         </div>
     </main>
     <footer>
-        <div id="footer-desktop"> <!-- Desktop footer --> 
-            <a href="#"><img id="footer-logo" src="/logo.png" alt="BYU-I WDD Society Logo"></a>
-            <ul id="footer-links">
-                <li class="footer-content"><a href="#">Events</a></li>
-                <li class="footer-content"><a href="#">News</a></li>
-                <li class="footer-content"><a href="#">Internships</a></li>
-                <li class="footer-content"><a href="/about/">About</a></li>
-                <li class="footer-content"><a href="#">FAQs</a></li>
-                <li class="footer-content"><a href="#">Articles</a></li>
-            </ul>
-        </div>
+        <a href="/" id="footer-logo">
+            <img src="/src/images/logo.png" alt="BYU-I WDD Society Logo">
+        </a>
+        <ul id="footer-links">
+            <li class="footer-link"><a href="/events/">Events</a></li>
+            <li class="footer-link"><a href="#">News</a></li>
+            <li class="footer-link"><a href="#">Internships</a></li>
+            <li class="footer-link"><a href="/about/">About</a></li>
+            <li class="footer-link"><a href="#">FAQs</a></li>
+            <li class="footer-link"><a href="#">Articles</a></li>
+        </ul>
         <div id="copy">&copy; 2021 BYU-I Web Design & Development Society</div>
     </footer>
 </body>

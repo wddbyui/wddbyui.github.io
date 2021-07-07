@@ -306,8 +306,9 @@
             #top nav {
                 width: 70%;
                 max-width: 150px;
-                height: calc(56%);
+                height: calc(55%);
                 overflow: hidden;
+                z-index: 100;
             }
             #top nav ul {
                 padding: 0.5rem 0.5rem 0 0.5rem;
