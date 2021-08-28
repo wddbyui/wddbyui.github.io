@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/wddbyui/wdd-website/issues"
   },
-  "homepage": "https://github.com/wddbyui/wdd-website#readme"
+  "homepage": "https://github.com/wddbyui/wdd-website#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "nodemon": "^2.0.12"
+  }
 }
