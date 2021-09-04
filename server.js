@@ -5,6 +5,7 @@ const connectDB = require('./config/db');
 const PORT = process.env.PORT || config.get('PORT');
 
 const app = express();
+const routes = require('./backend/routes');
 
 connectDB();
 
@@ -23,6 +24,7 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use('/', routes);
 
 app.set('port', PORT);
 
