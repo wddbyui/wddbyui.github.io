@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wddbyui/wdd-website/issues"
   },
-  "homepage": "https://github.com/wddbyui/wdd-website#readme"
+  "homepage": "https://github.com/wddbyui/wdd-website#readme",
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
