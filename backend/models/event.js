@@ -19,6 +19,7 @@ const eventSchema = new Schema ({
 
   eventRepeat: {type: Boolean, requried: false},
 
+  eventZoom: {type: String, required: false},
 
   description: { type: String, required}
 
