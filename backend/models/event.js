@@ -21,6 +21,6 @@ const eventSchema = new Schema ({
 
   eventZoom: {type: String, required: false},
 
-  description: { type: String, required}
+  description: { type: String, required: true}
 
 })
